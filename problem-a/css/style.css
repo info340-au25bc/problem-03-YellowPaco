@@ -1,0 +1,49 @@
+/* 1. Circle Fill */
+circle {
+  fill: #5f5f5f;
+}
+
+/* 2. Path Stroke Color and Width */
+path:nth-of-type(1), path:nth-of-type(2) {
+  stroke: #5f5f5f;
+  stroke-width: 8px;
+}
+
+/* 3. White Small Circles */
+circle.small {
+  fill: white;
+}
+
+/* 4. Brown Small Circles */
+.contained circle.small {
+  fill: #573d29;
+}
+
+/* 5. Snout Color */
+.contained circle:not(.small), .contained rect {
+  fill: #c0c0c0;
+  stroke: none;
+  opacity: 1;
+}
+
+/* 6. Mouth Color */
+#interactive {
+  fill: #c0c0c0;
+  stroke: #bd250d;
+  stroke-width: 4px;
+}
+
+/* 7. Tongue color */
+#interactive:hover {
+  fill: #bd250d;
+}
+
+/* 8. Background opacity */
+rect:not(#rect) {
+  opacity: 0;
+}
+
+/* 9.  */
+path:last-of-type {
+  stroke: none;
+}
