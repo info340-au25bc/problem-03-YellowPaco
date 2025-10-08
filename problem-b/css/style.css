@@ -1,3 +1,16 @@
+/* Set box-sizing */
 * {
     box-sizing: border-box;
+}
+
+/* Page Fonts */
+body {
+    font-family: 'Nunito Sans', Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Raleway font for all headers */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Raleway', Helvetica, sans-serif;
+    font-weight: 300;
 }
