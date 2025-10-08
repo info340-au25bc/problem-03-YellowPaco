@@ -27,3 +27,21 @@ h2 {
     position: relative;
     top: 5px;
 }
+
+/* General Spacing */
+.container {
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+}
+
+h1, h2 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+}
+
+p, dl {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
