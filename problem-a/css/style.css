@@ -15,12 +15,12 @@ circle.small {
 }
 
 /* 4. Brown Small Circles */
-.contained circle.small {
+.contained .small {
   fill: #573d29;
 }
 
 /* 5. Snout Color */
-.contained circle:not(.small), .contained rect {
+.contained circle, rect {
   fill: #c0c0c0;
   stroke: none;
   opacity: 1;
