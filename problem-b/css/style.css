@@ -74,6 +74,12 @@ nav a {
     transition: color .25s ease-out, border-bottom .25s ease-out;
 }
 
+/* To resolve no-descending-specificity error */
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
 nav a:hover:focus:active {
     color: #f0f0f0;
     border-bottom: .8rem solid #f0f0f0;
@@ -115,8 +121,23 @@ header p {
     border-radius: 15px;
 }
 
-/* About Section */
+/* About*/
 #about {
     background-color: #e0e0e0;
     line-height: 1.5;
+}
+
+/* Footer*/
+footer {
+    color: white;
+    background-color: #3e1305;   
+}
+
+footer p {
+    margin: 0;
+    line-height: 1.25;
+}
+
+footer p:last-of-type {
+    padding-top: 8px;
 }
