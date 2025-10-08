@@ -30,3 +30,15 @@ body {
   flex-grow: 0;
   flex-shrink: 0;
 }
+
+.flex-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flex-card {
+  flex: 0 0 250px;
+  background-color: white;
+  gap: .5rem;
+}
