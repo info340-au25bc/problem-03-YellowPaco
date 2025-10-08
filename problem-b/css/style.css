@@ -78,3 +78,19 @@ nav a:hover:focus:active {
     color: #f0f0f0;
     border-bottom: .8rem solid #f0f0f0;
 }
+
+/* Header */
+header {
+    color: white;
+    padding-top: 6rem;
+    padding-bottom: 1rem;
+    background-image: url("../img/paul-gilmore-145802-unsplash.jpg");
+    background-size: contain;
+    background-position: center;
+    background-color: #0084af;
+}
+
+header p {
+    font-style: italic;
+    font-size: 1.25rem;
+}
