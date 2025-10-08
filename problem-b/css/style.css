@@ -45,3 +45,36 @@ p, dl {
     margin-top: 0;
     margin-bottom: 1rem;
 }
+
+/* Nav Bar */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: white;
+    background-color: #2c96bf;
+    padding: 0.5rem 0.5rem 1rem 0.5rem;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    border-bottom: .8rem solid transparent;
+    transition: color .25s ease-out, border-bottom .25s ease-out;
+}
+
+nav a:hover:focus:active {
+    color: #f0f0f0;
+    border-bottom: .8rem solid #f0f0f0;
+}
