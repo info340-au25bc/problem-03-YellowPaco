@@ -114,3 +114,9 @@ header p {
     height: 200px;
     border-radius: 15px;
 }
+
+/* About Section */
+#about {
+    background-color: #e0e0e0;
+    line-height: 1.5;
+}
