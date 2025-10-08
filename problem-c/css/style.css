@@ -7,8 +7,13 @@ body {
   box-sizing: border-box;
 }
 
-.container {
+.flex-container {
   display: flex;
+}
+
+.container {
+  padding: 1em;
+
 }
 
 .section-1 {
@@ -24,8 +29,4 @@ body {
   flex-basis: 180px;
   flex-grow: 0;
   flex-shrink: 0;
-}
-
-.section-1, .section-2, .section-3 {
-  padding: 1em;
 }
